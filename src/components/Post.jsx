@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AiFillDelete } from "react-icons/ai";
-import { PostList } from "../store/post-list-store";
+import { PostList } from "../Store/post-list-store";
 
 const Post = ({ post }) => {
   const { deletePost } = useContext(PostList);
